@@ -79,7 +79,6 @@ package-rpm:
 		--transform="s/99-z-tuxedo-systemd-fix.rules/$(PACKAGE_NAME)-$(PACKAGE_VERSION)\/usr\/lib\/udev\/rules.d\/99-z-tuxedo-systemd-fix.rules/"\
 		--exclude=*.cmd\
 		--exclude=*.d\
-#		--exclude=*.ko\
 		--exclude=*.mod\
 		--exclude=*.mod.c\
 		--exclude=*.o\
